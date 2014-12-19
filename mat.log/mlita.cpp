@@ -4,6 +4,7 @@ using namespace std;
 #include <iostream>
 int main()
 {
+	bool s = TRUE; 
 	int n,k,i,j;
 	cout << "Enter count of machine" ; 
 	scanf("%d", &n); 
@@ -19,7 +20,10 @@ int main()
 		}
 		cout << "\n";
 	}
-	for ()
+	for (i=0;i<k;i++)
+	{
+		for (j=0;j<k;j++)
+	}
 
 return 0;
 }
