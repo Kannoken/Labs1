@@ -1,29 +1,80 @@
 #include <stdio.h>
-
-using namespace std;
 #include <iostream>
+//#include <conio.h>
+using namespace std;
+struct arr{
+
+	int a,b;
+} ;
 int main()
 {
-	bool s = TRUE; 
-	int n,k,i,j;
-	cout << "Enter count of machine" ; 
-	scanf("%d", &n); 
-	cout << "Enter count of detail";
-	scanf("%d", &k); 
-	int arr[n][k], ans[k]; 
-	cout << "Enter num of t"; 
-	for (i=0;i<k;i++)
-	{
-		for (j=0;j<2;j++)
-		{
-			scanf("%d", &arr[i][j]); 
-		}
-		cout << "\n";
-	}
-	for (i=0;i<k;i++)
-	{
-		for (j=0;j<k;j++)
-	}
+	int i,k,min1,min2,j,m;
+	bool s = true;
+	printf("Enter count of detail\n");
+	cin >> k;
 
-return 0;
+	struct arr mass[k];
+	struct arr ans[k];
+
+    int l=k;
+	printf("enter t\n");
+	for (i=0;i<k;i++)
+	{
+		printf("for a:\t");
+		cin >> mass[i].a;
+		cout << "for b:\t" ;
+		cin >> mass[i].b;
+	}
+	min1 = mass[0].a;
+	min2 = mass[0].b;
+	m=0;
+	int p = k/2;
+	l=k;
+	for (i=0;i<p;i++)
+    { m = 0;
+        for (j=0;j<k;j++)
+        {
+            if (min1>=mass[j].a)
+            {
+                min1=mass[j].a;
+                m=j;
+            }
+        }
+        ans[i]=mass[m];
+        k=k-1;
+        for (j=m;j<k;j++)
+        {
+            mass[j]=mass[j+1];
+        }
+        min1=mass[0].a;
+        min2=mass[0].b;
+        m=0;
+        for (j=0;j<k;j++)
+        {
+            if (min2>=mass[j].b)
+            {
+                min2=mass[j].b;
+                m = j;
+            }
+        }
+
+        ans[l-i-1]=mass[m];
+        k=k-1;
+        for (j=m;j<k;j++)
+        {
+            mass[j]=mass[j+1];
+        }
+    }
+    if ((l%2)!=0)
+    {
+        ans[p]=mass[0];
+    }
+    for (i=0;i<l;i++)
+    {
+        cout<< ans[i].a;
+        printf("\t");
+        cout<< ans[i].b;
+        printf("\n");
+
+    }
 }
