@@ -1,0 +1,12 @@
+C:\Users\Kannoken\Desktop\иикг\лабораторная работа 1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Kannoken\Desktop\иикг\лабораторная работа 1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Kannoken\Desktop\иикг\лабораторная работа 1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Kannoken\Desktop\иикг\лабораторная работа 1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Kannoken\Desktop\иикг\лабораторная работа 1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Kannoken\Desktop\иикг\лабораторная работа 1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Kannoken\Desktop\иикг\лабораторная работа 1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Kannoken\Desktop\иикг\лабораторная работа 1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Kannoken\Desktop\иикг\лабораторная работа 1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\учеба\архив\Второй курс\4 семак\иикг\лабораторная работа 1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\учеба\архив\Второй курс\4 семак\иикг\лабораторная работа 1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\учеба\архив\Второй курс\4 семак\иикг\лабораторная работа 1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
