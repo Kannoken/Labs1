@@ -1,0 +1,9 @@
+C:\Users\Kannoken\Desktop\иикг\фрфр\Фрактал\Фрактал\bin\Debug\Фрактал.exe.config
+C:\Users\Kannoken\Desktop\иикг\фрфр\Фрактал\Фрактал\bin\Debug\Фрактал.exe
+C:\Users\Kannoken\Desktop\иикг\фрфр\Фрактал\Фрактал\bin\Debug\Фрактал.pdb
+C:\Users\Kannoken\Desktop\иикг\фрфр\Фрактал\Фрактал\obj\Debug\Фрактал.Form1.resources
+C:\Users\Kannoken\Desktop\иикг\фрфр\Фрактал\Фрактал\obj\Debug\Фрактал.Properties.Resources.resources
+C:\Users\Kannoken\Desktop\иикг\фрфр\Фрактал\Фрактал\obj\Debug\Фрактал.csproj.GenerateResource.Cache
+C:\Users\Kannoken\Desktop\иикг\фрфр\Фрактал\Фрактал\obj\Debug\Фрактал.exe
+C:\Users\Kannoken\Desktop\иикг\фрфр\Фрактал\Фрактал\obj\Debug\Фрактал.pdb
+C:\Users\Kannoken\Desktop\иикг\фрфр\Фрактал\Фрактал\obj\Debug\Фрактал.csprojResolveAssemblyReference.cache

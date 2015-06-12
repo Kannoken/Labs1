@@ -28,6 +28,7 @@ int main()
 	min1 = mass[0].a;
 	min2 = mass[0].b;
 	m=0;
+	int anss[k];
 	int p = k/2;
 	l=k;
 	for (i=0;i<p;i++)
@@ -41,6 +42,7 @@ int main()
             }
         }
         ans[i]=mass[m];
+        anss[i]=m+1;
         k=k-1;
         for (j=m;j<k;j++)
         {
@@ -57,8 +59,8 @@ int main()
                 m = j;
             }
         }
-
         ans[l-i-1]=mass[m];
+        anss[l-i-1]=m+1;
         k=k-1;
         for (j=m;j<k;j++)
         {
@@ -67,15 +69,18 @@ int main()
     }
     if ((l%2)!=0)
     {
+        anss[p]=p;
         ans[p]=mass[0];
     }
     for (i=0;i<l;i++)
     {
-        cout<< ans[i].a;
+        printf("%d\n", anss[i]);
+      /*  cout<< ans[i].a;
         printf("\t");
         cout<< ans[i].b;
-        printf("\n");
+        printf("\n"); */
+
 
     }
-    return 0; 
+    return 0;
 }
